@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Jost', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
 # ✨The Significance of Union and Intersection Types in TypeScripts
 
 📌Welcome! in this guide.We will dive into Uninon and Intersection types in Typescripts
@@ -25,7 +37,7 @@ type second={
     address:string
 }
 
-//it combines first and second type 
+it combines first and second type 
 type UnionType=first | second
 ```
 
@@ -41,7 +53,7 @@ const object1:UnionType={
     age:21,
     address:'banani dhaka' 
 
-   // we can use any of between first and second it will not give you error
+   📌we can use any of between first and second it will not give you error
 }
 ```
 
@@ -78,4 +90,8 @@ const person:teacherAndstudent={
 }
 ```
 
-# If you understand good for your future 
+## If you understand good for your future 
+
+</body>
+</html>
+
