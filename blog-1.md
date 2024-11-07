@@ -1,4 +1,3 @@
-⚡💡📃📌🔏
 ## **✨The Significance of Union and Intersection Types in TypeScripts**
 
 ⚡*Welcome! in this guide.We will dive into Uninon and Intersection types in Typescripts*
