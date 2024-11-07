@@ -31,13 +31,15 @@ type UnionType=first | second //here is first and second type exist
 
 <!-- Lets take object where would have name,age and adress or any only once any of three. -->
 
-```const object1:UnionType={
+```
+const object1:UnionType={
     name:'jakuan',
     age:21,
     address:'banani dhaka' 
 
     <!-- we can use any of between first and second it will not give you error -->
-}```
+}
+```
 
 
 # InterSectino Type
