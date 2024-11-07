@@ -4,7 +4,7 @@
 
 🥇*First: Let's get acquainted with Union and Intersection Types*
 
-###** What is Union types in Typescripts? **
+###**What is Union types in Typescripts?**
 
 📌📌*A union types allows a variable to hold multiple types,representing the concept of unity.It enables flexibility by allowing a variable to be of one type or another.making it perticularly useful when dealing with diverse data.*
 
@@ -15,9 +15,9 @@
 ###**Union Type ( | )**
 
 📌📌*for the better understanding we can explore a example of union type
-here is Example *
+here is Example*
 
-*```ts
+```ts
 type first = {
   name: string;
   age: number;
@@ -28,7 +28,7 @@ type second = {
 
 //it combines first and second type
 type UnionType = first | second;
-```*
+```
 
 ### **🔍How it's work?**
 
@@ -42,7 +42,7 @@ const object1:UnionType={
     age:21,
     address:'banani dhaka'
 
-   📌*we can use any of between first and second it will not give you error*
+   📌we can use any of between first and second it will not give you error
 }
 ```
 
