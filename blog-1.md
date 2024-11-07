@@ -15,14 +15,16 @@ It combines multiple types into one.Thats allows you to work with all the proper
 <!-- for the better understanding we can explore a example of union type
 here is Example : -->
 
-```type first={
+```
+type first={
     name:string;
     age:number;
 }
 type second={
     address:string
 }
-type UnionType=first | second //here is first and second type exist ```
+type UnionType=first | second //here is first and second type exist 
+```
 
 # How it's work?
 <!-- When we need both type or any of both types we can use any of UnionType. -->
