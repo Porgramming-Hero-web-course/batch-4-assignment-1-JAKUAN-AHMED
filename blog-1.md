@@ -12,8 +12,8 @@ It combines multiple types into one.Thats allows you to work with all the proper
 
 # Union Type
 
-<!-- for the better understanding we can explore a example of union type
-here is Example : -->
+//for the better understanding we can explore a example of union type
+here is Example :
 
 ```
 type first={
@@ -27,9 +27,9 @@ type UnionType=first | second //here is first and second type exist
 ```
 
 # How it's work?
-<!-- When we need both type or any of both types we can use any of UnionType. -->
+// When we need both type or any of both types we can use any of UnionType.
 
-<!-- Lets take object where would have name,age and adress or any only once any of three. -->
+//Lets take object where would have name,age and adress or any only once any of three.
 
 ```
 const object1:UnionType={
@@ -37,10 +37,10 @@ const object1:UnionType={
     age:21,
     address:'banani dhaka' 
 
-    <!-- we can use any of between first and second it will not give you error -->
+   // we can use any of between first and second it will not give you error
 }
 ```
 
 
 # InterSectino Type
-<!-- Lets take an example for well understanding -->
+Lets take an example for well understanding
