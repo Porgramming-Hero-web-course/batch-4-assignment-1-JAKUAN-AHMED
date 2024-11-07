@@ -79,4 +79,4 @@ const person: teacherAndstudent = {
 };
 ```
 
-## If you understand good for your future
+📌 If you understand good for your future
