@@ -34,7 +34,7 @@ type UnionType = first | second;
 
 📃*When we need both type or any of both types we can use any of UnionType*
 
-⚡*Lets take object where would have name,age and adress or any only once any of three*
+⚡*Lets take object where would have name,age and address*
 
 ```ts
 const object1:UnionType={
