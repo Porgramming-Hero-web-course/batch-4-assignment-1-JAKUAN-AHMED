@@ -3,14 +3,15 @@
 //word occurances count using built in function [match,map,toLowerCase]
 function CountWordOccurences(sentence, word) {
     let cnt = 0;
-    const words = sentence.match(/\b\w+\b/g) || [];
-    const words1 = words.map(word => word.toLowerCase());
-    const word1 = word.toLowerCase();
-    for (let value of words1) {
-        if (value == word1) {
+    // const words=sentence.match(/\b\w+\b/g) || [];
+    // const words1=words.map(word=>word.toLowerCase());
+    // const word1=word.toLowerCase();
+    const words = sentence.split(" ");
+    for (let value of words) {
+        if (value === word) {
             cnt++;
         }
     }
     return cnt;
 }
-// console.log(CountWordOccurences("TypeScript is great. I love TypeScript!", "typescript"));
+// console.log(CountWordOccurences("I love typescript", "typescript"));
