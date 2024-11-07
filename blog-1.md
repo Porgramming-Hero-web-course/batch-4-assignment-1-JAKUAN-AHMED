@@ -1,19 +1,19 @@
 # ✨The Significance of Union and Intersection Types in TypeScripts
 
-Welcome! in this guide.We will dive into Uninon and Intersection types in Typescripts
+📌Welcome! in this guide.We will dive into Uninon and Intersection types in Typescripts
 
 🥇First: Let's get acquainted with Union and Intersection Types
 
 #  What is Union types in Typescripts?
 
-A union types allows a variable to hold multiple types,representing the concept of unity.It enables flexibility by allowing a variable to be of one type or another.making it perticularly useful when dealing with diverse data.
+📌A union types allows a variable to hold multiple types,representing the concept of unity.It enables flexibility by allowing a variable to be of one type or another.making it perticularly useful when dealing with diverse data.
 
 # 🤔 What is Intersection type in Typescripts?
 It combines multiple types into one.Thats allows you to work with all the property has in Types and also have to use all property that has in intersection type.
 
-# Union Type (|)
+# Union Type ( | )
 
-//for the better understanding we can explore a example of union type
+📌for the better understanding we can explore a example of union type
 here is Example :
 
 ```ts
@@ -31,9 +31,9 @@ type UnionType=first | second
 
 # 🔍How it's work?
 
-When we need both type or any of both types we can use any of UnionType.
+📌When we need both type or any of both types we can use any of UnionType.
 
-Lets take object where would have name,age and adress or any only once any of three.
+📌Lets take object where would have name,age and adress or any only once any of three.
 
 ```ts
 const object1:UnionType={
@@ -46,7 +46,7 @@ const object1:UnionType={
 ```
 
 
-# InterSectino Type (&)
+# InterSectino Type ( & )
 Let's take an example for well understanding
 
 ```ts
